@@ -3,9 +3,9 @@ import './WeddingPassport.css';
 function WeddingPassport() {
   return (
     <div className="WeddingPassport">
-      <header className="WeddingPassport-header">
+      <div className="WeddingPassport-cover">
         <h1>PASAPORTE</h1>
-      </header>
+      </div>
     </div>
   );
 }
