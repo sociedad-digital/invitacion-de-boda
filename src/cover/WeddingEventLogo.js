@@ -1,10 +1,11 @@
 import WeddingBanner from './WeddingBanner';
 import './WeddingEventLogo.css'
+import frame from '../assets/NicePng_gold-frame-border-png_5604780.png';
 
 function WeddingEventLogo() {
   return (
     <div className="WeddingEventLogo">
-      <img className="frame" src={process.env.PUBLIC_URL + "/assets/NicePng_gold-frame-border-png_5604780.png"} />
+      <img className="frame" src={frame} />
       <WeddingBanner/>
     </div>
   );

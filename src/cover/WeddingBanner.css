@@ -1,0 +1,18 @@
+.WeddingEventLogo .banner {
+  width: 115%;
+  position:relative;
+  top:-43%;
+  right:7%;
+
+  max-width: none;
+  max-height: none;
+  background-image: url("../assets/NicePng_gold-ribbon-png_93008.png");
+  height: 100%;
+  background-repeat:no-repeat;
+  background-size:contain;
+
+  color:mediumpurple;
+  font-family: 'ChopinScript';
+  font-weight: bolder;
+
+}

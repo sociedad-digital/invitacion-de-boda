@@ -1,6 +1,10 @@
+import './WeddingBanner.css'
 function WeddingBanner(){
+  var date = "18.02.22"
   return (
-    <img className="banner" src={process.env.PUBLIC_URL + "/assets/NicePng_gold-ribbon-png_93008.png"} />
+    <div className="banner">
+      {date}
+    </div>
   );
 }
 
