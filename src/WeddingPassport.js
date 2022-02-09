@@ -1,5 +1,5 @@
 import './WeddingPassport.css';
-import WeddingPassportCover from './WeddingPassportCover'
+import WeddingPassportCover from './cover/WeddingPassportCover'
 function WeddingPassport() {
 
   return (
