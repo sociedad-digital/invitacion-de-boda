@@ -14,7 +14,7 @@ code {
 
 @font-face {
   font-family: 'ChopinScript';
-  src: local('ChopinScript'), url(./assets/fonts/ChopinScript.ttf) format('truetype');
+  src: local('ChopinScript'), url(./fonts/ChopinScript.ttf) format('truetype');
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
