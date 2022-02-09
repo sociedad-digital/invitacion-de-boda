@@ -18,10 +18,3 @@ code {
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
-
-img{
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
-}
