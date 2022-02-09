@@ -12,11 +12,6 @@
   text-align: center;
 }
 
-.WeddingEventLogo{
-  position:relative;
-  width:45%;
-}
-
 .WeddingPassport-cover > p,h1  {
   margin-top: 1.25em;
   margin-left: 0.75em;
@@ -25,22 +20,4 @@
 .WeddingPassport-cover h1 {
   font-family: 'ChopinScript';
   line-height: 1.15em;
-}
-
-.WeddingEventLogo img.frame {
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.WeddingEventLogo img.banner {
-  width: 125%;
-  position:relative;
-  top:-37%;
-  right:12.5%;
-
-  max-width: none;
-  max-height: none;
-
 }
