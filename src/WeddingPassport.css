@@ -17,11 +17,19 @@
   .WeddingPassport-cover {
     font-size: calc(10px + 2vmin);
   }
+
+  html{
+    font-size: 4vmin;
+  }
 }
 
 @media (max-width:560px ) or (max-height:560px ){
   .WeddingPassport-cover {
     font-size: 3vmin;
+  }
+
+  html{
+    font-size: 5vmin;
   }
 }
 

@@ -3,7 +3,7 @@ function WeddingBanner(){
   var date = "18.02.22"
   return (
     <div className="banner">
-      {date}
+      <h2>{date}</h2>
     </div>
   );
 }
