@@ -23,6 +23,12 @@
   }
 }
 
+@media (min-width:560px) and (max-width:760px) {
+  html{
+    font-size: 4vmin;
+  }
+}
+
 @media (max-width:560px ) or (max-height:560px ){
   .WeddingPassport-cover {
     font-size: 3vmin;
