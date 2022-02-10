@@ -14,12 +14,8 @@
 }
 
 @media (min-width:760px){
-  .WeddingPassport-cover {
-    font-size: calc(10px + 2vmin);
-  }
-
   html{
-    font-size: 4vmin;
+    font-size: 3.5vmin;
   }
 }
 
