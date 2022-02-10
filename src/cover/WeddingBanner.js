@@ -1,6 +1,6 @@
 import './WeddingBanner.css'
 function WeddingBanner(){
-  var date = "18.02.22"
+  var date = "01.01.70"
   return (
     <div className="banner">
       <h2>{date}</h2>
