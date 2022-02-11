@@ -2,7 +2,10 @@
   border-top-right-radius: 3.5vw;
   border-bottom-right-radius: 3.5vw;
 
-  background-color: #0C231E;
+  border-top-left-radius: 1vw;
+  border-bottom-left-radius: 1vw;
+
+  background-color: #0D1A3A;
   color: #DCD0A6;
   font-family: 'Montserrat', sans-serif;
 
@@ -11,7 +14,12 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
+
+  border-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) -0.35rem 0.25rem 10px;
 }
+
+
 
 .WeddingPassport-cover > p,h1  {
   margin: 0;
