@@ -11,20 +11,13 @@
 
     position:relative;
     font-family: 'ChopinScript';
-    font-weight: 1000;
     justify-content:center;
 
 }
 
-/* @media */
-
 .WeddingEventLogo .frame h1{
   margin: 0;
-  /* left:3.5rem; */
   position: relative;
-/* left: 50%; */
-top: 39%;
-/* transform: translate(-0%, -0%); */
-
+  top: 36%;
   font-size: 1.5rem;
 }
