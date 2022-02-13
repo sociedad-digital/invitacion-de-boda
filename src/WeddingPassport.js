@@ -1,5 +1,8 @@
 import './WeddingPassport.css';
 import WeddingPassportCover from './cover/WeddingPassportCover';
+import WeddingPassportBack from './WeddingPassportBack';
+import WeddingReception from './WeddingReception';
+import WeddingPresentation from './presentation/WeddingPresentation';
 import HTMLFlipBook from "react-pageflip";
 
 function WeddingPassport(this: any) {
@@ -18,7 +21,9 @@ function WeddingPassport(this: any) {
       className="WeddingPassport"
     >
       <WeddingPassportCover />
-      <div className="demoPage">Back</div>
+      <WeddingPresentation />
+      <WeddingReception />
+      <WeddingPassportBack />
     </HTMLFlipBook>
 
   );
