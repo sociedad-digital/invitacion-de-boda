@@ -1,6 +1,8 @@
 import './WeddingBanner.css'
+import pareja from '../data/pareja.json';
+
 function WeddingBanner(){
-  var date = "01.01.70"
+  var date = pareja.fecha;
   return (
     <div className="banner">
       <h2>{date}</h2>

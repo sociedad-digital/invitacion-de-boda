@@ -1,7 +1,6 @@
 import './WeddingPassportCover.css';
 import WeddingEventLogo from './WeddingEventLogo';
-import novio from '../data/novio.json';
-import novia from '../data/novia.json';
+import pareja from '../data/pareja.json';
 import React from 'react';
 
 const WeddingPassportCover = React.forwardRef((props, ref) => {
@@ -11,7 +10,7 @@ const WeddingPassportCover = React.forwardRef((props, ref) => {
     <h1 className="passport">PASAP♥RTE</h1>
       <WeddingEventLogo />
     <h6>A nuestra boda</h6>
-    <h1 className="couple">{novio.nombre} & {novia.nombre}</h1>
+    <h1 className="couple">{pareja.novio.nombre} & {pareja.novia.nombre}</h1>
     </div>
   )
 });
