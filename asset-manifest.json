@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/invitacion-de-boda/static/css/main.031eb4a3.css",
-    "main.js": "/invitacion-de-boda/static/js/main.91f3d678.js",
+    "main.css": "/invitacion-de-boda/static/css/main.0c2abb35.css",
+    "main.js": "/invitacion-de-boda/static/js/main.09e46237.js",
     "static/js/787.fe2c7fe1.chunk.js": "/invitacion-de-boda/static/js/787.fe2c7fe1.chunk.js",
     "static/media/NicePng_gold-frame-border-png_5604780.png": "/invitacion-de-boda/static/media/NicePng_gold-frame-border-png_5604780.877e3622006ece766b99.png",
     "static/media/NicePng_gold-ribbon-png_93008.png": "/invitacion-de-boda/static/media/NicePng_gold-ribbon-png_93008.ef90e3398b99c50c8682.png",
     "static/media/ChopinScript.ttf": "/invitacion-de-boda/static/media/ChopinScript.294d294101e0ae84b924.ttf",
     "index.html": "/invitacion-de-boda/index.html",
-    "main.031eb4a3.css.map": "/invitacion-de-boda/static/css/main.031eb4a3.css.map",
-    "main.91f3d678.js.map": "/invitacion-de-boda/static/js/main.91f3d678.js.map",
+    "main.0c2abb35.css.map": "/invitacion-de-boda/static/css/main.0c2abb35.css.map",
+    "main.09e46237.js.map": "/invitacion-de-boda/static/js/main.09e46237.js.map",
     "787.fe2c7fe1.chunk.js.map": "/invitacion-de-boda/static/js/787.fe2c7fe1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.031eb4a3.css",
-    "static/js/main.91f3d678.js"
+    "static/css/main.0c2abb35.css",
+    "static/js/main.09e46237.js"
   ]
 }
