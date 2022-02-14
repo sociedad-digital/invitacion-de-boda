@@ -11,7 +11,7 @@ const WeddingPresentation = React.forwardRef((props, ref) => {
       <h2>{boda.novio.nombre_completo}</h2>
 
       <h3>{boda.fecha}</h3>
-      <p>{boda.lugar_nupcias}</p>
+      <p>{boda.nupcias_lugar}</p>
 
       <p>Al amanecer del quinto día</p>
 

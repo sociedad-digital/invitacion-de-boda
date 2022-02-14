@@ -17,15 +17,27 @@ const WeddingReception = React.forwardRef((props, ref) => {
           <span className="Name">{boda.novia.nombre} & {boda.novio.nombre}</span>
         </div>
         <div className="row">
-          <span className="Fecha">{boda.fecha}</span>
+          <span className="Date">{boda.fecha}</span>
         </div>
         <div className="row">
-          <span className="Fecha">{boda.recepcion_hora}</span>
+          <span className="Time">{boda.recepcion_hora}</span>
         </div>
         <div className="row">
-          <span className="Fecha">{boda.lugar_recepcion}</span>
+          <span className="Location">{boda.recepcion_lugar}</span>
         </div>
       </div>
+
+      <div className="arrival-stamp">
+        <button type="button">
+          Agrecemos confirme los platillo(s)
+        </button>
+      </div>
+
+      <div className="arrivalCode">
+        <p>¡Buenaventura a la feliz pareja!</p>
+        <p>¡Apreciamos vuestra asistencia!</p>
+      </div>
+
     </div>
   );
 });
