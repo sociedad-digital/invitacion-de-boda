@@ -1,8 +1,21 @@
+@media (min-width:760px){
+  
+}
+
+@media (min-width:560px) and (max-width:760px) {
+
+}
+
+@media (max-width:560px ) or (max-height:560px ){
+  .WeddingPassport-cover {
+    font-size: 3vmin;
+  }
+}
+
 @media (min-aspect-ratio: 88/125) {
   .WeddingPassport-cover{
     width:69.69vh;
     height:99vh;
-
   }
 }
 
@@ -10,28 +23,6 @@
   .WeddingPassport-cover{
     width:99vw;
     height:140vw;
-  }
-}
-
-@media (min-width:760px){
-  html{
-    font-size: 3.5vmin;
-  }
-}
-
-@media (min-width:560px) and (max-width:760px) {
-  html{
-    font-size: 4vmin;
-  }
-}
-
-@media (max-width:560px ) or (max-height:560px ){
-  .WeddingPassport-cover {
-    font-size: 3vmin;
-  }
-
-  html{
-    font-size: 5vmin;
   }
 }
 

@@ -18,3 +18,29 @@ code {
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
+
+@media (min-aspect-ratio: 88/125) {
+
+}
+
+@media (max-aspect-ratio: 88/125) {
+
+}
+
+@media (min-width:760px){
+  html{
+    font-size: 3.5vmin;
+  }
+}
+
+@media (min-width:560px) and (max-width:760px) {
+  html{
+    font-size: 3vmin;
+  }
+}
+
+@media (max-width:560px ) or (max-height:560px ){
+  html{
+    font-size: 5vmin;
+  }
+}
