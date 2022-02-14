@@ -25,13 +25,10 @@ const WeddingReception = React.forwardRef((props, ref) => {
         <div className="row">
           <span className="Location">{boda.recepcion_lugar}</span>
         </div>
+
       </div>
 
-      <div className="arrival-stamp">
-        <button type="button">
-          Agrecemos confirme los platillo(s)
-        </button>
-      </div>
+      <img src="heart-stamp.jpg" />
 
       <div className="arrivalCode">
         <p>¡Buenaventura a la feliz pareja!</p>

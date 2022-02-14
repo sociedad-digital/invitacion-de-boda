@@ -4,7 +4,7 @@ import boda from '../data/pareja.json';
 const WeddingPresentation = React.forwardRef((props, ref) => {
   return (
     <div  ref={ref}>
-      <p>Acompañanos en nuestras nupcias</p>
+      <p>Acompañanos a la ceremonia nupcial</p>
       <img src="assets/heart.png" />
       <h2>{boda.novia.nombre_completo}</h2>
       <h3>&</h3>
@@ -15,6 +15,12 @@ const WeddingPresentation = React.forwardRef((props, ref) => {
 
       <p>Al amanecer del quinto día</p>
 
+      <div>
+        Huateque subsecuente
+        <button type="button">
+          Reserve Su Venida Porfa
+        </button>
+      </div>
     </div>
   );
 });
