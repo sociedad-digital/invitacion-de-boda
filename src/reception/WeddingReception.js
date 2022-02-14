@@ -1,5 +1,5 @@
 import React from 'react';
-import boda from './data/pareja.json';
+import boda from '../data/pareja.json';
 
 const WeddingReception = React.forwardRef((props, ref) => {
   return (
@@ -9,7 +9,7 @@ const WeddingReception = React.forwardRef((props, ref) => {
       <img src="event-featuring-photo.jpg" />
       <div className="event-details">
         <div className="row">
-          <span className="Type">Boda</span>
+          <span className="Type">Recepción</span>
           <span className="Code">{boda.recepcion_lugar}</span>
           <span className="PassportID">{boda.recepcion_pase}</span>
         </div>
@@ -17,7 +17,7 @@ const WeddingReception = React.forwardRef((props, ref) => {
           <span className="Name">{boda.novia.nombre} & {boda.novio.nombre}</span>
         </div>
         <div className="row">
-          <span className="Date">{boda.fecha}</span>
+          <span className="Date">{boda.fecha_recepción}</span>
         </div>
         <div className="row">
           <span className="Time">{boda.recepcion_hora}</span>

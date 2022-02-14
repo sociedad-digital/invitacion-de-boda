@@ -1,7 +1,7 @@
 import './WeddingPassport.css';
 import WeddingPassportCover from './cover/WeddingPassportCover';
-import WeddingPassportBack from './WeddingPassportBack';
-import WeddingReception from './WeddingReception';
+import WeddingPassportBack from './cover/WeddingPassportBack';
+import WeddingReception from './reception/WeddingReception';
 import WeddingPresentation from './presentation/WeddingPresentation';
 import HTMLFlipBook from "react-pageflip";
 
