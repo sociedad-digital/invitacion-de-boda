@@ -1,12 +1,12 @@
 import React from 'react';
 import boda from '../data/pareja.json';
+import './WeddingReception.css';
 
 const WeddingReception = React.forwardRef((props, ref) => {
   return (
     <div ref={ref} className="marriage-passport-details">
       <h2>Pasaporte de boda</h2>
-
-      <img src="event-featuring-photo.jpg" />
+      <img className="featuring-photo" src={boda.featuring_photo} />
       <div className="event-details">
         <div className="row">
           <span className="Type">Recepción</span>
@@ -25,7 +25,6 @@ const WeddingReception = React.forwardRef((props, ref) => {
         <div className="row">
           <span className="Location">{boda.recepcion_lugar}</span>
         </div>
-
       </div>
 
       <img src="heart-stamp.jpg" />
@@ -34,7 +33,6 @@ const WeddingReception = React.forwardRef((props, ref) => {
         <p>¡Buenaventura a la feliz pareja!</p>
         <p>¡Apreciamos vuestra asistencia!</p>
       </div>
-
     </div>
   );
 });
