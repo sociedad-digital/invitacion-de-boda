@@ -1,0 +1,16 @@
+{
+  "novia": {
+    "nombre": "Novia",
+    "nombre_completo": "La Novia"
+  },
+  "novio": {
+    "nombre": "Novio",
+    "nombre_completo": "El Novio"
+  },
+  "fecha": "4.20.20",
+  "nupcias_lugar":"Catedral local",
+  "nupcias_hora":"Al amanecer del quinto día",
+  "recepcion_lugar":"La calle de los recién casados",
+  "recepcion_hora": "Después de la ceremonia religiosa",
+  "featuring_photo":"/invitacion-de-boda/static/media/featuring-wedding-photo.b4b5bfd85f7b885311a4.jpeg"
+}
