@@ -6,8 +6,8 @@ img.featuring-photo{
   background-image: url('../assets/right-page-background.png');
   background-size: cover;
 
-  border-top-right-radius: 1.25rem;
-  border-bottom-right-radius: 1.25rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 
   box-shadow: rgba(0, 0, 0, 0.35) 0.35rem 0rem 0.35rem;
 }

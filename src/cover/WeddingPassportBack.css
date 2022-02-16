@@ -1,9 +1,9 @@
-.WeddingPassport-cover {
-  border-top-right-radius: 1.0rem;
-  border-bottom-right-radius: 1.0rem;
+.WeddingPassport-back {
+  border-top-left-radius: 1.0rem;
+  border-bottom-left-radius: 1.0rem;
 
-  border-top-left-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+  border-top-right-radius: 0.50rem;
+  border-bottom-right-radius: 0.50rem;
 
   background-color: #0D1A3A;
   color: #DCD0A6;
@@ -17,7 +17,7 @@
   justify-content: center;
 
   border-left: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.35) -0.35rem 0.25rem 0.35rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0.35rem 0.25rem 0.35rem;
 
   padding-top: 2rem;
 }
