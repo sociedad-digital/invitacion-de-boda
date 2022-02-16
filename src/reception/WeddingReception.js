@@ -4,7 +4,7 @@ import './WeddingReception.css';
 
 const WeddingReception = React.forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="marriage-passport-details">
+    <div ref={ref} className={props.className}>
       <h2>Pasaporte de boda</h2>
       <img className="featuring-photo" src={boda.featuring_photo} />
       <div className="event-details">

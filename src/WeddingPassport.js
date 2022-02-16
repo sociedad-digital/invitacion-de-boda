@@ -21,8 +21,8 @@ function WeddingPassport(this: any) {
       className="WeddingPassport"
     >
       <WeddingPassportCover />
-      <WeddingPresentation />
-      <WeddingReception />
+      <WeddingPresentation className="inside-left-page page"/>
+      <WeddingReception className="inside-right-page page"/>
       <WeddingPassportBack />
     </HTMLFlipBook>
 

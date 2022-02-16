@@ -1,6 +1,7 @@
 import React from 'react';
 import boda from '../data/pareja.json';
-
+import './WeddingPresentation.css';
+// import '../data/featuring-wedding-photo.jpeg';
 
 const WeddingPresentation = React.forwardRef((props, ref) => {
   let name="Filipino Meza Gutierrez";
@@ -11,7 +12,7 @@ const WeddingPresentation = React.forwardRef((props, ref) => {
   }
 
   return (
-    <div  ref={ref}>
+    <div  ref={ref} className={props.className}>
       <p>Acompañanos a la ceremonia nupcial</p>
       <img src="assets/heart.png" />
       <h2>{boda.novia.nombre_completo}</h2>

@@ -1,3 +1,8 @@
 img.featuring-photo{
   max-width:100%;
 }
+
+.inside-right-page{
+  background-image: url('../assets/right-page-background.png');
+  background-size: contain;
+}
