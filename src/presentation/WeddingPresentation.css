@@ -1,4 +1,9 @@
 .inside-left-page{
   background-image: url('../assets/left-page-background.png');
-  background-size: contain;
+  background-size: cover;
+
+  border-top-left-radius: 1.25rem;
+  border-bottom-left-radius: 1.25rem;
+
+  box-shadow: rgba(0, 0, 0, 0.35) -0.35rem 0rem 0.35rem;
 }

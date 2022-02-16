@@ -4,5 +4,10 @@ img.featuring-photo{
 
 .inside-right-page{
   background-image: url('../assets/right-page-background.png');
-  background-size: contain;
+  background-size: cover;
+
+  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0.35rem 0rem 0.35rem;
 }

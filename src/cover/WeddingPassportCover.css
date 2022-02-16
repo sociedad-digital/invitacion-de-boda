@@ -1,22 +1,25 @@
 .WeddingPassport-cover {
-  border-top-right-radius: 3.5vw;
-  border-bottom-right-radius: 3.5vw;
+  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
 
-  border-top-left-radius: 1vw;
-  border-bottom-left-radius: 1vw;
+  border-top-left-radius: 0.250rem;
+  border-bottom-left-radius: 0.250rem;
 
   background-color: #0D1A3A;
   color: #DCD0A6;
   font-family: 'Montserrat', sans-serif;
 
-  align-items: center;
   display: flex;
   flex-direction: column;
+
+  align-items: center;
   text-align: center;
   justify-content: center;
 
-  border-left: 20px;
-  box-shadow: rgba(0, 0, 0, 0.35) -0.35rem 0.25rem 10px;
+  border-left: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) -0.35rem 0.25rem 0.35rem;
+
+  padding-top: 2rem;
 }
 
 
@@ -25,7 +28,7 @@
   margin: 0;
 }
 .WeddingPassport-cover > h1.passport  {
-  letter-spacing: 0.1em
+  letter-spacing: 0.1rem;
 }
 
 .WeddingPassport-cover .couple {

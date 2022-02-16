@@ -6,9 +6,12 @@
   font-weight: bolder;
   color:white;
 }
+.WeddingEventLogo {
+  position:relative;
+}
 
 .WeddingEventLogo .banner {
-  width: 11em;
+  width: 11rem;
   position:relative;
 
   max-width: 100;
