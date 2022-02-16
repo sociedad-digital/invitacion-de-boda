@@ -1,7 +1,15 @@
 import React from 'react';
 import boda from '../data/pareja.json';
 
+
 const WeddingPresentation = React.forwardRef((props, ref) => {
+  let name="Filipino Meza Gutierrez";
+
+  const handleSubmit = function(event){
+    alert('No se ha podido comunicar con el proveedor de servicios para invitados.\n\nFavor de confirmar su asistencia directamente con la pareja.');
+    event.preventDefault();
+  }
+
   return (
     <div  ref={ref}>
       <p>Acompañanos a la ceremonia nupcial</p>
@@ -13,28 +21,16 @@ const WeddingPresentation = React.forwardRef((props, ref) => {
       <h3>{boda.fecha}</h3>
       <p>{boda.nupcias_lugar}</p>
 
-      <p>Al amanecer del quinto día</p>
+      <p>{boda.nupcias_hora}</p>
 
       <div>
         Huateque subsecuente
-        <button type="button">
+        <button onClick={handleSubmit}>
           Reserve Su Venida Porfa
         </button>
       </div>
     </div>
   );
 });
-// <div class="marriage-passport-identification">
-//   <h1>Acompañanos a nuestro enlace político-religioso</h1>
-//   <img src="cursi-loving-heart.png" />
-//
-//   <h3>{{boda.fecha}}</h3>
-//   <p>{{boda.direccion}}</p>
-//   <p>{{boda.hora}}</p>
-//
-//   <p> RSVP </p>
-//
-//   <p>Recepción de gala</p>
-// </div>
 
 export default WeddingPresentation;
