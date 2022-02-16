@@ -2,7 +2,7 @@ import React from 'react';
 import boda from '../data/pareja.json';
 import './WeddingPresentation.css';
 // import '../data/featuring-wedding-photo.jpeg';
-
+import heart from "../assets/pngkey.com-orange-heart-png-9358552.png";
 const WeddingPresentation = React.forwardRef((props, ref) => {
   let name="Filipino Meza Gutierrez";
 
@@ -14,7 +14,7 @@ const WeddingPresentation = React.forwardRef((props, ref) => {
   return (
     <div  ref={ref} className={props.className}>
       <p>Acompañanos a la ceremonia nupcial</p>
-      <img src="assets/heart.png" />
+      <img src={heart}/>
       <h2>{boda.novia.nombre_completo}</h2>
       <h3>&</h3>
       <h2>{boda.novio.nombre_completo}</h2>
