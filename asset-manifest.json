@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/invitacion-de-boda/static/css/main.ecf76962.css",
-    "main.js": "/invitacion-de-boda/static/js/main.4cbc40bb.js",
+    "main.css": "/invitacion-de-boda/static/css/main.5017e4e1.css",
+    "main.js": "/invitacion-de-boda/static/js/main.7f7073a7.js",
     "static/js/787.fe2c7fe1.chunk.js": "/invitacion-de-boda/static/js/787.fe2c7fe1.chunk.js",
     "static/media/left-page-background.png": "/invitacion-de-boda/static/media/left-page-background.4ea0bb637cba7ec1f24d.png",
     "static/media/right-page-background.png": "/invitacion-de-boda/static/media/right-page-background.bff2189423f46915a81e.png",
+    "static/media/NicePng_gold-circle-png_193969.png": "/invitacion-de-boda/static/media/NicePng_gold-circle-png_193969.0fe57765c86c40a240c6.png",
     "static/media/NicePng_gold-frame-border-png_5604780.png": "/invitacion-de-boda/static/media/NicePng_gold-frame-border-png_5604780.877e3622006ece766b99.png",
     "static/media/pngkey.com-orange-heart-png-9358552.png": "/invitacion-de-boda/static/media/pngkey.com-orange-heart-png-9358552.0f8fd60ba39e04268874.png",
     "static/media/NicePng_gold-ribbon-png_93008.png": "/invitacion-de-boda/static/media/NicePng_gold-ribbon-png_93008.ef90e3398b99c50c8682.png",
     "static/media/ChopinScript.ttf": "/invitacion-de-boda/static/media/ChopinScript.294d294101e0ae84b924.ttf",
     "index.html": "/invitacion-de-boda/index.html",
-    "main.ecf76962.css.map": "/invitacion-de-boda/static/css/main.ecf76962.css.map",
-    "main.4cbc40bb.js.map": "/invitacion-de-boda/static/js/main.4cbc40bb.js.map",
+    "main.5017e4e1.css.map": "/invitacion-de-boda/static/css/main.5017e4e1.css.map",
+    "main.7f7073a7.js.map": "/invitacion-de-boda/static/js/main.7f7073a7.js.map",
     "787.fe2c7fe1.chunk.js.map": "/invitacion-de-boda/static/js/787.fe2c7fe1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecf76962.css",
-    "static/js/main.4cbc40bb.js"
+    "static/css/main.5017e4e1.css",
+    "static/js/main.7f7073a7.js"
   ]
 }
