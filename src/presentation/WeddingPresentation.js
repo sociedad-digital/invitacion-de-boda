@@ -4,6 +4,7 @@ import './WeddingPresentation.css';
 import ReservationModal from '../reservation/ReservationModal';
 // import '../data/featuring-wedding-photo.jpeg';
 import heart from "../assets/pngkey.com-orange-heart-png-9358552.png";
+
 const WeddingPresentation = React.forwardRef((props, ref) => {
   let guest="Filipino Meza Gutierrez";
 
@@ -19,7 +20,7 @@ const WeddingPresentation = React.forwardRef((props, ref) => {
   }
   return (
     <div  ref={ref} className={props.className}>
-      <p>Acompañanos a la ceremonia nupcial</p>
+      <h6>Acompañanos al enlace matrimonial de</h6>
       <img src={heart}/>
       <h2>{boda.novia.nombre_completo}</h2>
       <h3>&</h3>
@@ -32,7 +33,6 @@ const WeddingPresentation = React.forwardRef((props, ref) => {
 
       <div>
         Huateque subsecuente
-
         <button onClick={handleSubmit}>
           {guest}<br/>
           Reserve Su Venida Porfa
