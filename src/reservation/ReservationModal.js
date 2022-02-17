@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
 
 const customStyles = {
@@ -17,8 +16,8 @@ const customStyles = {
 Modal.setAppElement('#root');
 
 function ReservationModal(props) {
-  let subtitle;
-  const [modalIsOpen, setIsOpen] = React.useState(false);
+  const [kidMeals, setKidMeals] = React.useState(0);
+  const [growupMeals, setGrowupMeals] = React.useState(1);
 
   function closeModal() {
     alert('No se ha podido comunicar con el proveedor de servicio.\nNotifique con los novios para que le guarden su platillo');
@@ -35,11 +34,26 @@ function ReservationModal(props) {
         <form>
           <label>
             Adultos
-            <input defaultValue="1" />
+            <input
+              defaultValue="1"
+              type="number"
+              min={1}
+              max={4}
+              step={1}
+              value={growupMeals}
+              onChange={e => setGrowupMeals(e.target.value)}
+            />
           </label>
           <label>
             Niños
-            <input defaultValue="0" />
+            <input
+              type="number"
+              min={0}
+              max={2}
+              step={1}
+              value={kidMeals}
+              onChange={e => setKidMeals(e.target.value)}
+            />
           </label>
         </form>
         <button onClick={closeModal}>Confirmar</button>
