@@ -11,7 +11,7 @@ const WeddingPassportBack = React.forwardRef((props, ref) => {
         <WeddingDate className="fancy-font logo-component" />
       </div>
       <h6>¡Mesa de regalos en la cocina!</h6>
-      <h6>¡Regalanos una receta!</h6>
+      <h6>¡Regálanos una receta!</h6>
     </div>
   );
 });
