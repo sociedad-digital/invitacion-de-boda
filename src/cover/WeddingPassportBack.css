@@ -22,17 +22,31 @@
   padding-top: 2rem;
 }
 
+.back-logo{
+  /* Align */
+  justify-content: center;
+  margin: 2rem auto 2rem auto;
 
+  /* Size */
+  width: 11rem;
+  height: 11rem;
 
-.WeddingPassport-cover > p,h1,h2,h3,h4,h5,h6  {
-  margin: 0;
+  /* Background */
+  background-image: url("../assets/NicePng_gold-circle-png_193969.png");
+  background-repeat:no-repeat;
+  background-size:contain;
 }
-.WeddingPassport-cover > h1.passport  {
-  letter-spacing: 0.1rem;
-}
 
-.WeddingPassport-cover .couple {
+.back-logo>h2{
   font-family: 'ChopinScript';
-  line-height: 3rem;
+  font-size: 1.25rem;
+}
+
+.back-logo > p,h1,h2,h3,h4,h5,h6  {
+  margin: 0;
+  line-height: 1em;
+}
+
+.back-logo > h1  {
   font-size: 2rem;
 }

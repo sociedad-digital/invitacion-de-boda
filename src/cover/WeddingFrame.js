@@ -4,7 +4,7 @@ import CoupleInitials from './CoupleInitials';
 function WeddingFrame(){
   return (
     <div className="WeddingFrame">
-      <CoupleInitials />
+      <CoupleInitials className="fancy-font logo-component"/>
     </div>
   );
 }

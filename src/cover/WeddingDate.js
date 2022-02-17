@@ -1,10 +1,10 @@
 // import './WeddingBanner.css'
 import pareja from '../data/pareja.json';
 
-function WeddingDate(){
+function WeddingDate(props){
   var date = pareja.fecha;
   return (
-    <h2>{date}</h2>
+    <h2 className={props.className}>{date}</h2>
   );
 }
 

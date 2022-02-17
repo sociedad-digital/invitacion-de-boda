@@ -5,7 +5,7 @@ import './WeddingEventLogo.css'
 function WeddingEventLogo() {
   return (
     <div className="WeddingEventLogo">
-      <WeddingFrame />
+      <WeddingFrame className="fancy-font"/>
       <WeddingBanner />
     </div>
   );

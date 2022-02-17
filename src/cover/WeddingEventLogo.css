@@ -17,3 +17,12 @@
   width:115%;
   bottom: -55%;
 }
+
+.fancy-font{
+  font-family: 'ChopinScript';
+}
+
+.logo-component{
+  position: relative;
+  top: 36%;
+}
