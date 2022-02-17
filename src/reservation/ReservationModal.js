@@ -20,8 +20,10 @@ function ReservationModal(props) {
   const [growupMeals, setGrowupMeals] = React.useState(1);
 
   function closeModal() {
-    alert('No se ha podido comunicar con el proveedor de servicio.\nNotifique con los novios para que le guarden su platillo');
     props.setIsOpen(false);
+  }
+  function confirmAssistance() {
+    alert('No se ha podido comunicar con el proveedor de servicio.\nNotifique con los novios para que le guarden su platillo');
   }
 
   return (
@@ -44,6 +46,7 @@ function ReservationModal(props) {
               onChange={e => setGrowupMeals(e.target.value)}
             />
           </label>
+          <br/>
           <label>
             Niños
             <input
@@ -56,7 +59,8 @@ function ReservationModal(props) {
             />
           </label>
         </form>
-        <button onClick={closeModal}>Confirmar</button>
+        <button onClick={confirmAssistance}>Confirmar</button>
+        <button onClick={closeModal}>Cancelar</button>
       </Modal>
   );
 }
