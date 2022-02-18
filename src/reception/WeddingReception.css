@@ -11,5 +11,12 @@
 .horizontal-content{
   max-height:70.2%;
   max-width:142%;
-  /* transform: rotate(-90deg); */
+  height:70.2%;
+  width:130%;
+
+  transform: rotate(-90deg) translateX(-17%);
 }
+
+/* .horizontal-content:hover{
+  transform: rotate(0deg);
+} */
