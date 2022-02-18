@@ -1,7 +1,3 @@
-img.featuring-photo{
-  max-width:100%;
-}
-
 .inside-right-page{
   background-image: url('../assets/right-page-background.png');
   background-size: cover;
@@ -13,6 +9,7 @@ img.featuring-photo{
 }
 
 .horizontal-content{
-  transform: rotate(-90deg);
-
+  max-height:70.2%;
+  max-width:142%;
+  /* transform: rotate(-90deg); */
 }

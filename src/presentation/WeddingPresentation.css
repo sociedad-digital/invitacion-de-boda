@@ -2,6 +2,8 @@
   background-image: url('../assets/left-page-background.png');
   background-size: cover;
 
+  overflow: hidden;
+
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
 
