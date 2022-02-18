@@ -1,9 +1,35 @@
 .heart {
-  max-width:33%;
+  max-width:55%;
   float:left;
-  margin: 1%;
-  /* padding:1%; */
+  margin-top: -6;
   animation: glow 1s infinite alternate;
+}
+.featuring-photo svg{
+    margin:-1em -2em -3em -1.5em;
+}
+
+.featuring-photo{
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+@media only screen and (orientation: landscape){
+  /* .heart{
+    max-width: 10% !important;
+    max-height: 10% !important;
+  } */
+
+  .featuring-photo{
+    min-width: 1px;
+    max-width: 145vmin;
+    min-height: 1px;
+  }
+
+  .featuring-photo svg{
+    margin-left: 0em;
+  }
 }
 
 @keyframes glow {
@@ -91,13 +117,8 @@
 }
 
 .heart {
-  /* fill:red; */
-
   position: relative;
-  top: 5px;
-  max-width: 33%;
   animation: pulse 1.33s ease infinite;
-  padding:1%;
 }
 
 .heart  path {

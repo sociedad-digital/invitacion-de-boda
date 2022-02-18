@@ -7,36 +7,34 @@ import FeaturingPhoto from './FeaturingPhoto';
 const WeddingReception = React.forwardRef((props, ref) => {
   return (
     <div ref={ref} className={props.className}>
-      <div className="horizontal-content">
+      <div className="horizontal-content wedding-reception">
         <h2>Pasaporte de boda</h2>
-        <div>
+        <div className="container">
           <FeaturingPhoto className="featuring-photo"  src={boda.featuring_photo}/>
-          <span className="event-details">
-            <div className="row">
-              <span className="Type">Recepción</span>
-              <span className="Code">{boda.recepcion_lugar}</span>
-              <span className="PassportID">{boda.recepcion_pase}</span>
+          <span className="reception-details">
+            <div className="general-data">
+              <span className="field type">Recepción</span>
+              {boda.recepcion_pase && <span className="field code">{boda.recepcion_pase}</span>}
+              {boda.recepcion_pase && <span className="field passport-id">{boda.recepcion_pase}</span>}
             </div>
-            <div className="row">
-              <span className="Name">{boda.novia.nombre} & {boda.novio.nombre}</span>
+            <div className="field name">
+              {boda.novia.nombre} & {boda.novio.nombre}
             </div>
-            <div className="row">
-              <span className="Date">{boda.fecha_recepción}</span>
+            <div className="field date">
+              {boda.fecha}
             </div>
-            <div className="row">
-              <span className="Time">{boda.recepcion_hora}</span>
+            <div className="field time">
+              {boda.recepcion_hora}
             </div>
-            <div className="row">
-              <span className="Location">{boda.recepcion_lugar}</span>
+            <div className="field location">
+              {boda.recepcion_lugar}
             </div>
           </span>
         </div>
 
-        <img src="heart-stamp.jpg" />
-
         <div className="arrivalCode">
-          <p>¡Buenaventura a la feliz pareja!</p>
-          <p>¡Apreciamos vuestra asistencia!</p>
+          <p> &lt;&lt;&lt;&lt;&lt; &lt;&lt;&lt;&lt;&lt; &lt;&lt;&lt;&lt;&lt; ¡Buenaventura a la feliz pareja! &gt;&gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt;&gt;</p>
+          <p>&lt;&lt;&lt;&lt;&lt;  &gt;&gt;&gt;&gt;&gt; &lt;&lt;&lt;&lt;&lt; ¡Apreciamos vuestra asistencia!&gt;&gt;&gt;&gt;&gt; &lt;&lt;&lt;&lt;&lt;  &gt;&gt;&gt;&gt;&gt;</p>
         </div>
       </div>
     </div>

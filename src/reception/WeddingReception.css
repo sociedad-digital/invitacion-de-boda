@@ -14,9 +14,124 @@
   height:70.2%;
   width:130%;
 
-  transform: rotate(-90deg) translateX(-17%);
+  transform: rotate(-90deg) translateX(-12%) translateY(-5%);
 }
 
-/* .horizontal-content:hover{
+.reception-details{
+  max-width: 55%;
+  display:inline-block;
+  font-family: monospace;
+  /* position:relative; */
+  text-align: left;
+  font-size: 0.9rem;
+  border-bottom: solid #C1AD65;
+
+  line-height: 1.1em;
+
+}
+
+@media only screen
+  and (orientation: landscape)
+  {
+  .reception-details{
+    max-width: 75%;
+    width:60vw;
+    display:inline-block;
+    font-family: monospace;
+    /* position:relative; */
+    text-align: left;
+    font-size: 0.9rem;
+    border-bottom: solid #C1AD65;
+  }
+}
+
+.reception-details .general-data{
+  /* display:inline-flex; */
+  border-bottom: solid #C1AD65 5px;
+  margin-bottom:0.5em;
+  padding-bottom:0.5em;
+}
+
+
+.field {
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+.field:before{
+  display:block;
+  font-size: 0.8em;
+  color: #C1AD65;
+}
+
+.type:before{
+  content:"Tipo ";
+}
+
+.passport-id:before{
+  content:"Id ";
+}
+.code:before{
+  content:"Código ";
+}
+.name:before{
+  content:"Nombre :";
+}
+.date:before{
+  content:"Fecha :";
+}
+.time:before{
+  content:"Hora :";
+}
+.location:before{
+  content:"Locación :";
+}
+
+.wedding-reception h2{
+  font-family: monospace;
+  letter-spacing: 0.25em;
+  color: #C1AD65;
+  text-transform: uppercase;
+  margin: 0.75em 0em 0.75em 0em;
+  border-bottom: solid #C1AD65;
+}
+
+@media only screen
+  and (orientation: landscape)
+  and (max-height:480px) {
+  .horizontal-content{
+    transform: rotate(0deg);
+    height:100%;
+    width:100%;
+  }
+
+  .inside-left-page{
+    display:none !important;
+  }
+  .inside-right-page{
+    width:100vw !important;
+    position:relative;
+    left:0 !important;
+    /* height:200% !important; */
+  }
+  html{
+    font-size: 5vmin;
+  }
+}
+.horizontal-content:hover{
   transform: rotate(0deg);
-} */
+  height:100%;
+  width:100%;
+}
+
+.arrivalCode{
+  text-transform: uppercase;
+  margin-top: 1em;
+  display: block;
+  width:100%;
+  font-family: 'monospace';
+  font-size: 0.76rem;
+}
+
+.arrivalCode p{
+  margin: 0;
+}

@@ -17,6 +17,7 @@ function WeddingPassport(this: any) {
       maxHeight={1250}
       maxShadowOpacity={0.5}
       showCover={true}
+      usePortrait={true}
       mobileScrollSupport={true}
       className="WeddingPassport"
     >
