@@ -8,7 +8,7 @@ const WeddingReception = React.forwardRef((props, ref) => {
   return (
     <div ref={ref} className={props.className}>
       <div className="horizontal-content wedding-reception">
-        <h2>Pasaporte de boda</h2>
+        <h2 className="title">Pasaporte de boda</h2>
         <div className="container">
           <FeaturingPhoto className="featuring-photo"  src={boda.featuring_photo}/>
           <span className="reception-details">

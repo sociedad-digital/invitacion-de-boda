@@ -7,7 +7,7 @@ function FeaturingPhoto(props){
       <svg  className="heart" viewBox="-6 -6 46 46">
       <defs>
         <pattern id="featuredImage" patternUnits="userSpaceOnUse" width="30" height="30">
-          <image href={featuredImage} x="0" y="0" width="30" height="30" />
+          <image href={featuredImage} x="0" y="-1" width="30" height="30" />
         </pattern>
       </defs>
 
