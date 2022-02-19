@@ -27,7 +27,7 @@ const WeddingReception = React.forwardRef((props, ref) => {
               {boda.recepcion_hora}
             </div>
             <div className="field location">
-              {boda.recepcion_lugar}
+              {boda.recepcion_lugar.nombre}
             </div>
           </span>
         </div>
