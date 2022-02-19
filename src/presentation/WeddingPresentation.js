@@ -20,25 +20,29 @@ const WeddingPresentation = React.forwardRef((props, ref) => {
   }
   return (
     <div  ref={ref} className={props.className}>
-      <h6>Acompañanos al enlace matrimonial de</h6>
-      <img src={heart}/>
-      <h2>{boda.novia.nombre_completo}</h2>
-      <h3>&</h3>
-      <h2>{boda.novio.nombre_completo}</h2>
+      <h5 className="invite">Acompáñanos a celebrar el enlace matrimonial de</h5>
+      <img className="fingerprint-heart" src={heart}/>
+      <h1 className="fancy-font ocre">{boda.novio.nombre_completo}</h1>
+      <h1 className="fancy-font ocre">&</h1>
+      <h1 className="fancy-font ocre">{boda.novia.nombre_completo}</h1>
 
-      <h3>{boda.fecha}</h3>
-      <p>{boda.nupcias_lugar}</p>
+      <h3 className="attribute banner ocre">{boda.fecha}</h3>
 
-      <p>{boda.nupcias_hora}</p>
+      <p className="attribute">{boda.nupcias_lugar}</p>
+      <p className="attribute">{boda.nupcias_hora}</p>
 
-      <div>
+      <p>
         Huateque subsecuente
-        <button onClick={handleSubmit}>
-          {guest}<br/>
-          Reserve Su Venida Porfa
+      </p>
+      <div className="pseudofancy">
+        {guest}
+      </div>
+        <button
+          className="rsvp-button"
+        onClick={handleSubmit}>
+          Reservad Si Vos Place
         </button>
         <ReservationModal modalIsOpen={modalIsOpen} setIsOpen={setIsOpen}/>
-      </div>
     </div>
   );
 });
