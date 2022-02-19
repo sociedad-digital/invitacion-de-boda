@@ -21,7 +21,7 @@
 
 .horizontal-content .reception-details{
   max-width: 75%;
-  width:70vw;
+  width:30vw;
 
   display:inline-block;
   font-family: monospace;
@@ -33,7 +33,16 @@
 
 }
 
-@media (min-aspect-ratio:176/125){
+@media (min-aspect-ratio:176/125)
+and (orientation:portrait)
+{
+  .horizontal-content .reception-details{
+    width:30vw;
+  }
+}
+
+@media(min-aspect-ratio:125/88)
+and (orientation:landscape){
   .horizontal-content .reception-details{
     width:30vw;
   }
@@ -44,7 +53,7 @@
   {
   .reception-details{
     max-width: 75%;
-    width:60vw;
+    width:70vw;
     display:inline-block;
     font-family: monospace;
     text-align: left;
@@ -110,6 +119,9 @@
     height:100%;
     width:100%;
   }
+  .horizontal-content .reception-details{
+    width:60vw;
+  }
 
   .inside-left-page{
     display:none !important;
@@ -118,30 +130,29 @@
     width:100vw !important;
     position:relative;
     left:0 !important;
-    /* height:200% !important; */
   }
   html{
     font-size: 5vmin;
   }
 }
-.horizontal-content:hover{
-  transform: rotate(0deg) translate( -50%, 10%) scale(1.1);
-  box-shadow: 0 0 3rem grey;
-  background-image: url('../assets/right-page-background.png');
-  background-size: cover;
 
-  border-top-right-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+@media only screen
+  and (min-height:480px)
+  and (orientation:portrait)
+  {
 
-  box-shadow: rgba(0, 0, 0, 0.35) 0.35rem 0rem 0.35rem;
+  .horizontal-content:hover{
+    transform: rotate(0deg) translate( -50%, 10%) scale(1.1);
+    box-shadow: 0 0 3rem grey;
+    background-image: url('../assets/right-page-background.png');
+    background-size: cover;
 
-  /* height:90vh;
-  width:90vw;
-  position:fixed;
-  left:0;
-  top0; */
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0.35rem 0rem 0.35rem;
+  }
 }
-
 .arrivalCode{
   text-transform: uppercase;
   margin-top: 1em;
