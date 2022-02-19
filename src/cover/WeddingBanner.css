@@ -14,7 +14,7 @@
   width: 11rem;
   position:relative;
 
-  max-width: 100;
+  max-width: 100%;
   max-height: 100%;
   background-image: url("../assets/NicePng_gold-ribbon-png_93008.png");
   height: 100%;

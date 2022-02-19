@@ -9,7 +9,7 @@ const WeddingPassportCover = React.forwardRef((props, ref) => {
     <div className="WeddingPassport-cover" ref={ref} >
     <h1 className="passport">PASAP♥RTE</h1>
       <WeddingEventLogo />
-    <h6>A nuestra boda</h6>
+    <h5>A nuestra boda</h5>
     <h1 className="couple">{pareja.novio.nombre} & {pareja.novia.nombre}</h1>
     </div>
   )
