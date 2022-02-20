@@ -1,21 +1,26 @@
 .WeddingEventLogo{
-  position:relative;
-  width:auto;
-  height:auto;
-  justify-content: center;
-  display: flex;
-  margin: 2em auto 2em auto;
+  /* position:relative; */
+  /* width:auto; */
+  /* height:auto; */
+  /* justify-content: center; */
+  /* text-align: center; */
+  /* align-items: center; */
+  display: block;
+  margin: 10% auto 10% auto;
 
-  width: 11em;
-  height: 11em;
-  max-width: 100%;
-  max-height: 100%;
+  width: 10em;
+  height: 10em;
+  /* min-width: 100%; */
+  /* min-height: 100%; */
+  /* max-width: 100%; */
+  /* max-height: 100%; */
 }
 
 .WeddingEventLogo div.banner{
-  position:absolute;
-  width:115%;
-  bottom: -73%;
+  display: block;
+  /* position:relative; */
+  /* width:115%; */
+  /* bottom: -37%; */
 }
 
 .fancy-font{
@@ -23,10 +28,13 @@
 }
 
 .banner{
-  top:20%;
+  /* top:30%; */
 }
 
 .logo-component{
   position: relative;
-  top: 38%;
+  /* display:block; */
+  /* width:100%; */
+  top: 33%;
+  line-height: 2em;
 }

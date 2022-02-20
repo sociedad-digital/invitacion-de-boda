@@ -1,22 +1,35 @@
 .WeddingEventLogo .banner h2 {
   font-size: 1.3em;
-  margin: 0;
+  /* padding: 1em; */
 
   font-family: 'ChopinScript';
   font-weight: bolder;
   color:white;
   position:relative;
-  top:3%;
+  padding-top: 0.1em;
+  padding-bottom: 1em;
+  /* margin-top: 0em; */
+  /* top:3%; */
+  /* width: 10%; */
 }
 .WeddingEventLogo {
   position:relative;
 }
 
 .WeddingEventLogo .banner {
-  width: 11em;
-  position:relative;
+  /* display:flex; */
+  /* margin:0; */
+  /* width: 11em; */
+
+  /* position:relative; */
 
   background-image: url("../assets/NicePng_gold-ribbon-png_93008.png");
   background-repeat:no-repeat;
-  background-size:contain;
+  background-size:100%;
+  background-position: top;
+}
+.banner{
+  /* font-size: 200%; */
+  /* display:block; */
+  /* height:auto; */
 }

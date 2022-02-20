@@ -3,8 +3,8 @@ import CoupleInitials from './CoupleInitials';
 
 function WeddingFrame(props){
   return (
-    <div className="WeddingFrame">
-      <CoupleInitials className="fancy-font logo-component"/>
+    <div className={props.className}>
+      {props.children}
     </div>
   );
 }
