@@ -1,16 +1,11 @@
 .WeddingEventLogo .banner h2 {
-  font-size: 1.3em;
-  /* padding: 1em; */
-
+  font-size: 1.1em;
   font-family: 'ChopinScript';
   font-weight: bolder;
   color:white;
   position:relative;
-  padding-top: 0.1em;
-  padding-bottom: 1em;
-  /* margin-top: 0em; */
-  /* top:3%; */
-  /* width: 10%; */
+  padding-top: 0.2em;
+  padding-bottom: 1.1em;
 }
 .WeddingEventLogo {
   position:relative;
