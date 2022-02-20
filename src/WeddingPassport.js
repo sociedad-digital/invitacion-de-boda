@@ -13,7 +13,6 @@ function WeddingPassport(this: any) {
       size="stretch"
       minWidth={320}
       maxWidth={670}
-      // maxHeigth={700}
       maxShadowOpacity={0.5}
       showCover={true}
       mobileScrollSupport={true}
