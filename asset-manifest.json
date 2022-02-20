@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/invitacion-de-boda/static/css/main.38d0b4e0.css",
+    "main.css": "/invitacion-de-boda/static/css/main.eba75d20.css",
     "main.js": "/invitacion-de-boda/static/js/main.1052cbba.js",
     "static/js/787.fe2c7fe1.chunk.js": "/invitacion-de-boda/static/js/787.fe2c7fe1.chunk.js",
     "static/media/left-page-background.png": "/invitacion-de-boda/static/media/left-page-background.4ea0bb637cba7ec1f24d.png",
@@ -12,12 +12,12 @@
     "static/media/featuring-wedding-photo.jpeg": "/invitacion-de-boda/static/media/featuring-wedding-photo.b4b5bfd85f7b885311a4.jpeg",
     "static/media/ChopinScript.ttf": "/invitacion-de-boda/static/media/ChopinScript.294d294101e0ae84b924.ttf",
     "index.html": "/invitacion-de-boda/index.html",
-    "main.38d0b4e0.css.map": "/invitacion-de-boda/static/css/main.38d0b4e0.css.map",
+    "main.eba75d20.css.map": "/invitacion-de-boda/static/css/main.eba75d20.css.map",
     "main.1052cbba.js.map": "/invitacion-de-boda/static/js/main.1052cbba.js.map",
     "787.fe2c7fe1.chunk.js.map": "/invitacion-de-boda/static/js/787.fe2c7fe1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38d0b4e0.css",
+    "static/css/main.eba75d20.css",
     "static/js/main.1052cbba.js"
   ]
 }
