@@ -28,8 +28,14 @@ const WeddingPresentation = React.forwardRef((props, ref) => {
 
       <h3 className="attribute banner ocre">{boda.fecha}</h3>
 
-      <p className="attribute">{boda.nupcias_lugar}</p>
-      <p className="attribute">{boda.nupcias_hora}</p>
+      <code>
+        <p>
+          {boda.nupcias_lugar}
+        </p>
+        <p>
+          {boda.nupcias_hora}
+        </p>
+      </code>
 
       <p>
         Huateque subsecuente
