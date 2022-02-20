@@ -3,8 +3,8 @@ import featuredImage from '../data/featuring-wedding-photo.jpeg';
 
 function FeaturingPhoto(props){
   return(
-    <div className="featuring-photo">
-      <svg  className="heart" viewBox="-6 -6 46 46">
+    <div className={props.className}>
+      <svg viewBox="-6 -6 46 46">
       <defs>
         <pattern id="featuredImage" patternUnits="userSpaceOnUse" width="30" height="30">
           <image href={featuredImage} x="0" y="-1" width="30" height="30" />

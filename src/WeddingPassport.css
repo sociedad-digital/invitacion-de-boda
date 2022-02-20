@@ -1,5 +1,4 @@
 @media (min-width:760px){
-
 }
 
 @media (min-width:560px) and (max-width:760px) {
@@ -24,11 +23,19 @@
   }
 }
 
-@media (max-aspect-ratio: 88/125) {
-  /* .WeddingPassport-cover{
-    width:99vw;
-    height:140vw;
-  } */
+@media (min-aspect-ratio: 125/88) {
+  .stf__wrapper{
+    /* transform: rotate(90deg) translate( 0%, 0%);
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s; */
+  }
+  .--right{
+    /* transform: translate( -70%, 0%); */
+
+  }
 }
 
 /* .WeddingPassport {
