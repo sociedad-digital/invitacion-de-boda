@@ -37,7 +37,7 @@
   font-family: monospace;
   text-align: left;
   border-bottom: solid #C1AD65;
-  
+
 
   line-height: 1.1em;
 
@@ -83,7 +83,7 @@
   border-bottom: solid #C1AD65;
 }
 
-/* @media only screen
+@media only screen
   and (orientation: landscape)
   and (max-height:480px) {
   .horizontal-content{
@@ -95,9 +95,9 @@
     width:68%;
   }
 
-  .inside-left-page{
+  /* .inside-left-page{
     display:none !important;
-  }
+  } */
   .inside-right-page{
     width:100vw !important;
     position:relative;
@@ -105,7 +105,7 @@
   }
 }
 
-*/
+
 @media only screen
   and (min-height:480px)
   and (orientation:portrait)
