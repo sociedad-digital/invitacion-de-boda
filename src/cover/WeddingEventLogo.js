@@ -6,7 +6,7 @@ function WeddingEventLogo() {
   return (
     <div className="WeddingEventLogo">
       <WeddingFrame className="fancy-font"/>
-      <WeddingBanner />
+      <WeddingBanner className="WeddingFrame" />
     </div>
   );
 }

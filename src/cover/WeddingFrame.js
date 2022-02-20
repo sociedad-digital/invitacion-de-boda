@@ -1,7 +1,7 @@
 import './WeddingFrame.css';
 import CoupleInitials from './CoupleInitials';
 
-function WeddingFrame(){
+function WeddingFrame(props){
   return (
     <div className="WeddingFrame">
       <CoupleInitials className="fancy-font logo-component"/>
