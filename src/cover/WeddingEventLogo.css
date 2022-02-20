@@ -22,6 +22,10 @@
   font-family: 'ChopinScript';
 }
 
+.banner{
+  top:20%;
+}
+
 .logo-component{
   position: relative;
   top: 38%;
