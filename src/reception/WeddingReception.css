@@ -22,24 +22,21 @@
 }
 
 .horizontal-content{
-  max-height:70.2%;
-  max-width:142%;
-  /* height:70.2%; */
+  height:70.2%;
   width:130%;
-
-  transform: rotate(-90deg) translateX(-25%) translateY(-25%);
+  position:absolute;
+  transform: rotate(-90deg) translate(-16%, -10%);
 
   font-size: 0.75em;
 }
 
 .horizontal-content .reception-details{
   max-width: 75%;
-  width:30vw;
+  width:30%;
 
   display:inline-block;
   font-family: monospace;
   text-align: left;
-  /* font-size: 0.9em; */
   border-bottom: solid #C1AD65;
 
   line-height: 1.1em;
@@ -50,14 +47,13 @@
 and (orientation:portrait)
 {
   .horizontal-content .reception-details{
-    width:30vw;
+    width:30%;
   }
 }
 
 @media(min-aspect-ratio:125/88)
 and (orientation:landscape){
   .horizontal-content .reception-details{
-    width:30vw;
   }
 }
 
@@ -66,7 +62,7 @@ and (orientation:landscape){
   {
   .reception-details{
     max-width: 75%;
-    width:70vw;
+    width:70%;
     display:inline-block;
     font-family: monospace;
     text-align: left;
@@ -84,7 +80,6 @@ and (orientation:landscape){
 
 .field {
   text-transform: uppercase;
-  /* font-size: 0.9em; */
 }
 .field:before{
   display:block;
@@ -143,9 +138,6 @@ and (orientation:landscape){
     position:relative;
     left:0 !important;
   }
-  /* html{
-    font-size: 5vmin;
-  } */
 }
 
 @media only screen
@@ -161,13 +153,13 @@ and (orientation:landscape){
     -o-transition-delay: 0s;
     transition-delay: 0s;
 
-    box-shadow: 0 0 3rem grey;
+    box-shadow: 0 0 3em grey;
     background-size: cover;
 
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
 
-    box-shadow: rgba(0, 0, 0, 0.35) 0.35rem 0rem 0.35rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0.35em 0em 0.35em;
   }
 }
 .arrivalCode{

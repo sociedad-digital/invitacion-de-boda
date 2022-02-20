@@ -2,17 +2,8 @@ html{
   font-size: 5vw;
 }
 @media
-  /* (max-aspect-ration:88/125)
-  and */
   (max-aspect-ratio:88/125){
   html{
-    /* font-size: 5vh; */
-  }
-}
-
-@media (max-width:660px){
-  html{
-    /* font-size: 5vw; */
   }
 }
 
@@ -24,7 +15,6 @@ html{
   }
 }
 @media (min-aspect-ratio:160/125)
-  /* and (min-width:660px) */
 {
   html{
     font-size: 2.5vw;
@@ -37,44 +27,6 @@ and (min-aspect-ratio:160/125)
     font-size: 34px;
   }
 }
-@media (max-height:900px){
-  html{
-    font-size: 1.9vw;
-  }
-}
-
-/* @media (min-height:930px)
-{
-  html{
-    font-size: 3px;
-  }
-} */
-
-@media (min-width:560px) and (max-width:760px) {
-
-}
-
-@media (max-width:560px ) or (max-height:560px ){
-  /* .WeddingPassport-cover {
-    font-size: 3vmin;
-  } */
-}
-
-@media (min-width: 800px) {
-  /* .WeddingPassport-cover{
-    width:69.69vh;
-    height:99vh;
-  } */
-
-
-  .WeddingPassport {
-    /* font-size: 70%; */
-  }
-}
-
-@media (min-aspect-ratio: 125/88) {
-}
-
 
 .page{
   text-align: center;
