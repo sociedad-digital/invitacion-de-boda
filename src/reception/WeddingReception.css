@@ -8,6 +8,19 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0.75em 0em 0.75em;
 }
 
+.rotable {
+  -webkit-transition: .5s all;
+  -webkit-transition-delay: 2s;
+  -moz-transition: .5s all;
+  -moz-transition-delay: 2s;
+  -ms-transition: .5s all;
+  -ms-transition-delay: 2s;
+  -o-transition: .5s all;
+  -o-transition-delay: 2s;
+  transition: .5s all;
+  transition-delay: .5s;
+}
+
 .horizontal-content{
   max-height:70.2%;
   max-width:142%;
@@ -75,7 +88,6 @@ and (orientation:landscape){
 }
 .field:before{
   display:block;
-  /* font-size: 0.8em; */
   color: #C1AD65;
 }
 
@@ -141,10 +153,15 @@ and (orientation:landscape){
   and (orientation:portrait)
   {
 
-  .horizontal-content:hover{
-    transform: rotate(0deg) translate( -50%, 10%) scale(1.1);
+  .rotable:hover{
+    transform: rotate(90deg) translate( 0%, 50%) scale(1.10);
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+
     box-shadow: 0 0 3rem grey;
-    background-image: url('../assets/right-page-background.png');
     background-size: cover;
 
     border-top-right-radius: 1rem;
