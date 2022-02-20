@@ -143,9 +143,9 @@ and (orientation:landscape){
     position:relative;
     left:0 !important;
   }
-  html{
+  /* html{
     font-size: 5vmin;
-  }
+  } */
 }
 
 @media only screen
