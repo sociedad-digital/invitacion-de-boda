@@ -12,6 +12,8 @@ function WeddingPassport(this: any) {
       height={125}
       size="stretch"
       minWidth={320}
+      maxWidth={670}
+      // maxHeigth={700}
       maxShadowOpacity={0.5}
       showCover={true}
       mobileScrollSupport={true}
@@ -20,7 +22,7 @@ function WeddingPassport(this: any) {
       <WeddingPassportCover />
       <WeddingPresentation className="inside-left-page page"/>
       <WeddingReception className="inside-right-page page"/>
-      <WeddingPassportBack />
+      <WeddingPassportBack className="wedding-passport-back"/>
     </HTMLFlipBook>
 
   );

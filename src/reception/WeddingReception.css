@@ -2,21 +2,21 @@
   background-image: url('../assets/right-page-background.png');
   background-size: cover;
 
-  border-top-right-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
 
-  box-shadow: rgba(0, 0, 0, 0.35) 0.35rem 0rem 0.35rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0.75em 0em 0.75em;
 }
 
 .horizontal-content{
   max-height:70.2%;
   max-width:142%;
-  height:70.2%;
+  /* height:70.2%; */
   width:130%;
 
-  transform: rotate(-90deg) translateX(-12%) translateY(-5%);
+  transform: rotate(-90deg) translateX(-25%) translateY(-25%);
 
-  font-size: 0.75rem;
+  font-size: 0.75em;
 }
 
 .horizontal-content .reception-details{
@@ -26,7 +26,7 @@
   display:inline-block;
   font-family: monospace;
   text-align: left;
-  font-size: 0.9rem;
+  /* font-size: 0.9em; */
   border-bottom: solid #C1AD65;
 
   line-height: 1.1em;
@@ -57,7 +57,7 @@ and (orientation:landscape){
     display:inline-block;
     font-family: monospace;
     text-align: left;
-    font-size: 0.9rem;
+    font-size: 0.9em;
     border-bottom: solid #C1AD65;
   }
 }
@@ -71,11 +71,11 @@ and (orientation:landscape){
 
 .field {
   text-transform: uppercase;
-  font-size: 0.9em;
+  /* font-size: 0.9em; */
 }
 .field:before{
   display:block;
-  font-size: 0.8em;
+  /* font-size: 0.8em; */
   color: #C1AD65;
 }
 
@@ -159,7 +159,7 @@ and (orientation:landscape){
   display: block;
   width:100%;
   font-family: 'monospace';
-  font-size: 0.76rem;
+  font-size: 0.76em;
 }
 
 .arrivalCode p{

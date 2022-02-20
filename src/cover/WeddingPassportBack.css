@@ -1,9 +1,9 @@
-.WeddingPassport-back {
-  border-top-left-radius: 1.0rem;
-  border-bottom-left-radius: 1.0rem;
+.wedding-passport-back {
+  border-top-left-radius: 1.0em;
+  border-bottom-left-radius: 1.0em;
 
-  border-top-right-radius: 0.50rem;
-  border-bottom-right-radius: 0.50rem;
+  border-top-right-radius: 0.50em;
+  border-bottom-right-radius: 0.50em;
 
   background-color: #0D1A3A;
   color: #DCD0A6;
@@ -16,20 +16,19 @@
   text-align: center;
   justify-content: center;
 
-  border-left: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0.35rem 0.25rem 0.35rem;
+  border-left: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0.35em 0.25em 0.35em;
 
-  padding-top: 2rem;
 }
 
 .back-logo{
   /* Align */
   justify-content: center;
-  margin: 2rem auto 2rem auto;
+  margin: 2em auto 2em auto;
 
   /* Size */
-  width: 11rem;
-  height: 11rem;
+  width: 11em;
+  height: 11em;
 
   /* Background */
   background-image: url("../assets/NicePng_gold-circle-png_193969.png");
@@ -39,7 +38,7 @@
 
 .back-logo>h2{
   font-family: 'ChopinScript';
-  font-size: 1.25rem;
+  font-size: 1.25em;
 }
 
 .back-logo > p,h1,h2,h3,h4,h5,h6  {
@@ -48,5 +47,5 @@
 }
 
 .back-logo > h1  {
-  font-size: 2rem;
+  font-size: 2em;
 }

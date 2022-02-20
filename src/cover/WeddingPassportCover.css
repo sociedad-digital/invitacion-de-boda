@@ -19,8 +19,11 @@
   box-shadow: rgba(0, 0, 0, 0.35) -0.35em 0.25em 0.35em;
 }
 
-.cover-container{
-  margin: 17.5% 0;
+.centered-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .WeddingPassport-cover > p,h1,h2,h3,h4,h5,h6  {
