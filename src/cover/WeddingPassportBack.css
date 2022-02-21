@@ -45,6 +45,17 @@
   line-height: 1em;
 } */
 
+.credits{
+  position:absolute;
+  bottom: 3%;
+  width:100%;
+  font-size: small;
+  font-family: cursive;
+}
+.credits a{
+  color:gray;
+}
+
 .back-logo > h1  {
   font-size: 2em;
 }
