@@ -10,6 +10,7 @@ const WeddingPassportBack = React.forwardRef((props, ref) => {
       <div className="centered-container">
         <h6>¡El mejor regalo es tu compañia!</h6>
         <h6>...o una receta de cocina</h6>
+        <h6>¡Habrá un buzón en recepción para depositarla!</h6>
         <WeddingEventLogo />
         <h6>También contamos con mesa virtual de regalos</h6>
         {
