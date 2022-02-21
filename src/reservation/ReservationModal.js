@@ -17,14 +17,34 @@ Modal.setAppElement('#root');
 
 function ReservationModal(props) {
   const [kidMeals, setKidMeals] = React.useState(0);
-  const [guest, setGuest] = React.useState("");
+  const [guest, setGuest] = React.useState(props.guest || "Nombre Completo");
   const [growupMeals, setGrowupMeals] = React.useState(1);
 
   function closeModal() {
     props.setIsOpen(false);
   }
   function confirmAssistance() {
-    alert('No se ha podido comunicar con el proveedor de servicio.\nNotifique con los novios para que le guarden su platillo');
+    const requestOptions = {
+       method: 'POST',
+       headers: { 'Content-Type': 'application/json' },
+       body: `${guest}\t${growupMeals}\t${kidMeals}`
+   };
+
+   fetch('http://bodalauypepe.tk/cgi-bin/rsvp.sh', requestOptions)
+        .then(response => {
+          if(response.status !== 204){
+            alert('No se ha podido comunicar con el proveedor de servicio.\nNotifique con los novios para que le guarden su platillo');
+            closeModal()
+          }else{
+            alert('¡Gracias reservar!');
+            closeModal()
+          }
+        })
+        .catch(e => {
+          alert('No se ha podido comunicar con el proveedor de servicio.\nNotifique con los novios para que le guarden su platillo');
+          closeModal()
+        })
+
   }
 
   return (
@@ -43,7 +63,7 @@ function ReservationModal(props) {
               min={1}
               max={4}
               step={1}
-              defaultValue={props.guest || "Nombre Completo"}
+              defaultValue={guest}
               onChange={e => setGuest(e.target.value)}
             />
           </label>
