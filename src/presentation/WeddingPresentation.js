@@ -29,10 +29,10 @@ const WeddingPresentation = React.forwardRef((props, ref) => {
 
       <code>
         <p>
-          {boda.nupcias_lugar}
+          {boda.nupcias.lugar}
         </p>
         <p>
-          {boda.nupcias_hora}
+          {boda.nupcias.hora}
         </p>
       </code>
 

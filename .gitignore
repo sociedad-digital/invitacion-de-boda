@@ -10,9 +10,9 @@
 
 # production
 /build
+deploy*.sh
 
 # misc
-deploy.sh
 .DS_Store
 .env.local
 .env.development.local

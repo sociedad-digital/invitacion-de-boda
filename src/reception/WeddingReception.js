@@ -14,8 +14,8 @@ const WeddingReception = React.forwardRef((props, ref) => {
           <span className="reception-details">
             <div className="general-data">
               <span className="field type">Boda</span>
-              {boda.recepcion_codigo && <span className="field code">{boda.recepcion_codigo}</span>}
-              {boda.recepcion_pase && <span className="field passport-id">{boda.recepcion_pase}</span>}
+              {boda.recepcion.codigo && <span className="field code">{boda.recepcion.codigo}</span>}
+              {boda.recepcion.id && <span className="field passport-id">{boda.recepcion.id}</span>}
             </div>
             <div className="field name">
               {boda.novia.nombre} & {boda.novio.nombre}
@@ -24,10 +24,14 @@ const WeddingReception = React.forwardRef((props, ref) => {
               {boda.fecha}
             </div>
             <div className="field time">
-              {boda.recepcion_hora}
+              {boda.recepcion.hora}
             </div>
             <div className="field location">
-              {boda.recepcion_lugar.nombre}
+              <a target="_reception_location" href={boda.recepcion.liga_mapa}>{boda.recepcion.nombre}</a>&nbsp;
+              {boda.recepcion.calle}&nbsp;
+              {boda.recepcion.referencia}&nbsp;
+              {boda.recepcion.colonia}&nbsp;
+              {boda.recepcion.localidad}&nbsp;
             </div>
           </span>
         </div>

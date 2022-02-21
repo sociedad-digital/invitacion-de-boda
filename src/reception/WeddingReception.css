@@ -31,8 +31,8 @@
 }
 
 .horizontal-content .reception-details{
-  width:50%;
-
+  width:55%;
+  margin-top: -1em;
   display:inline-block;
   font-family: monospace;
   text-align: left;
@@ -43,10 +43,16 @@
 
 }
 
+.field a{
+  color:#C1AD65;
+  font-weight: bold;
+}
 .field {
   text-transform: uppercase;
+  font-size: 0.8em;
 }
 .field:before{
+  font-size: 0.9em;
   display:block;
   color: #C1AD65;
 }

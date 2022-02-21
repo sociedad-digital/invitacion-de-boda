@@ -15,13 +15,13 @@ const WeddingPassportBack = React.forwardRef((props, ref) => {
         {
         boda.mesa_de_regalos &&
           <h6>
-            <a target="_mesa_1" href={boda.mesa_de_regalos[0].vinculo}>{boda.mesa_de_regalos[0].proveedor}<br/>{boda.mesa_de_regalos[0].evento}</a>
-            <a target="_mesa_2" href={boda.mesa_de_regalos[1].vinculo}>{boda.mesa_de_regalos[1].proveedor}<br/>{boda.mesa_de_regalos[1].evento}</a>
+            <a target="_mesa_1" href={boda.mesa_de_regalos[0].liga}>{boda.mesa_de_regalos[0].proveedor}<br/>{boda.mesa_de_regalos[0].nombre}</a>
+            <a target="_mesa_2" href={boda.mesa_de_regalos[1].liga}>{boda.mesa_de_regalos[1].proveedor}<br/>{boda.mesa_de_regalos[1].nombre}</a>
           </h6>
         }
       </div>
 
-      <div className="credits"><a href="mailto:emir.herrera@gmail.com">Herrera-González Emir, et al</a></div>
+      <div className="credits"><a href="mailto:emir.herrera@gmail.com">Servicios dígitales por Emir Herrera González</a></div>
     </div>
   );
 });
