@@ -36,7 +36,7 @@ function ReservationModal(props) {
             alert('No se ha podido comunicar con el proveedor de servicio.\nNotifique con los novios para que le guarden su platillo');
             closeModal()
           }else{
-            alert('¡Gracias reservar!');
+            alert('¡Gracias por reservar!');
             closeModal()
           }
         })
