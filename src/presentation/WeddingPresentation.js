@@ -48,7 +48,7 @@ const WeddingPresentation = React.forwardRef((props, ref) => {
         onClick={handleSubmit}>
           Reservad Si Vos Place
         </button>
-        <ReservationModal modalIsOpen={modalIsOpen} setIsOpen={setIsOpen}/>
+        <ReservationModal guest={guest} modalIsOpen={modalIsOpen} setIsOpen={setIsOpen}/>
     </div>
   );
 });

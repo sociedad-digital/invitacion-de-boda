@@ -83,6 +83,14 @@
   border-bottom: solid #C1AD65;
 }
 
+.general-data .field {
+  margin-right: 2em;
+}
+
+.general-data{
+  display:flex;
+}
+
 @media only screen
   and (orientation: landscape)
   and (max-height:480px) {

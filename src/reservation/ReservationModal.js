@@ -17,6 +17,7 @@ Modal.setAppElement('#root');
 
 function ReservationModal(props) {
   const [kidMeals, setKidMeals] = React.useState(0);
+  const [guest, setGuest] = React.useState("");
   const [growupMeals, setGrowupMeals] = React.useState(1);
 
   function closeModal() {
@@ -34,6 +35,19 @@ function ReservationModal(props) {
         contentLabel="Example Modal"
       >
         <form>
+          <label>
+            R.S.V.P. 
+            <input
+              defaultValue="1"
+              type="text"
+              min={1}
+              max={4}
+              step={1}
+              defaultValue={props.guest}
+              onChange={e => setGuest(e.target.value)}
+            />
+          </label>
+          <br/>
           <label>
             Adultos
             <input

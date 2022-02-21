@@ -13,8 +13,8 @@ const WeddingReception = React.forwardRef((props, ref) => {
           <FeaturingPhoto className="featuring-photo"  src={boda.featuring_photo}/>
           <span className="reception-details">
             <div className="general-data">
-              <span className="field type">Recepción</span>
-              {boda.recepcion_pase && <span className="field code">{boda.recepcion_pase}</span>}
+              <span className="field type">Boda</span>
+              {boda.recepcion_codigo && <span className="field code">{boda.recepcion_codigo}</span>}
               {boda.recepcion_pase && <span className="field passport-id">{boda.recepcion_pase}</span>}
             </div>
             <div className="field name">
