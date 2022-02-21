@@ -18,7 +18,7 @@ const WeddingReception = React.forwardRef((props, ref) => {
               {boda.recepcion.id && <span className="field passport-id">{boda.recepcion.id}</span>}
             </div>
             <div className="field name">
-              {boda.novia.nombre} & {boda.novio.nombre}
+              {boda.novio.nombre} & {boda.novia.nombre} 
             </div>
             <div className="field date">
               {boda.fecha}
@@ -38,7 +38,7 @@ const WeddingReception = React.forwardRef((props, ref) => {
 
         <div className="arrivalCode">
           <p> &lt;&lt;&lt;&lt;&lt; &lt;&lt;&lt;&lt;&lt; &lt;&lt;&lt;&lt;&lt; ¡Buenaventura a la feliz pareja! &gt;&gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt;&gt;</p>
-          <p>&lt;&lt;&lt;&lt;&lt;  &gt;&gt;&gt;&gt;&gt; &lt;&lt;&lt;&lt;&lt; ¡Apreciamos vuestra asistencia!&gt;&gt;&gt;&gt;&gt; &lt;&lt;&lt;&lt;&lt;  &gt;&gt;&gt;&gt;&gt;</p>
+          <p>&lt;&lt;&lt;&lt;&lt;  &gt;&gt;&gt;&gt;&gt; &lt;&lt;&lt;&lt;&lt; ¡Apreciamos su asistencia!&gt;&gt;&gt;&gt;&gt; &lt;&lt;&lt;&lt;&lt;  &gt;&gt;&gt;&gt;&gt;</p>
         </div>
       </div>
     </div>
