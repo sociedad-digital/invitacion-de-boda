@@ -12,10 +12,13 @@ const WeddingPassportBack = React.forwardRef((props, ref) => {
         <h6>...o una receta de cocina</h6>
         <WeddingEventLogo />
         <h6>También contamos con mesa de regalos virtual y en la cocina</h6>
-        <h6>
-          <a target="_mesa_1" href={boda.mesa_de_regalos[0].vinculo}>{boda.mesa_de_regalos[0].proveedor}<br/>{boda.mesa_de_regalos[0].evento}</a>
-          <a target="_mesa_2" href={boda.mesa_de_regalos[1].vinculo}>{boda.mesa_de_regalos[1].proveedor}<br/>{boda.mesa_de_regalos[1].evento}</a>
-        </h6>
+        {
+        boda.mesa_de_regalos &&   
+          <h6>
+            <a target="_mesa_1" href={boda.mesa_de_regalos[0].vinculo}>{boda.mesa_de_regalos[0].proveedor}<br/>{boda.mesa_de_regalos[0].evento}</a>
+            <a target="_mesa_2" href={boda.mesa_de_regalos[1].vinculo}>{boda.mesa_de_regalos[1].proveedor}<br/>{boda.mesa_de_regalos[1].evento}</a>
+          </h6>
+        }
       </div>
     </div>
   );
