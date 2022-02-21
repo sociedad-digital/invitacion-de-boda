@@ -6,13 +6,12 @@ import ReservationModal from '../reservation/ReservationModal';
 import heart from "../assets/pngkey.com-orange-heart-png-9358552.png";
 
 const WeddingPresentation = React.forwardRef((props, ref) => {
-  let guest="Filipino Meza Gutierrez";
+  let guest;
 
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
   const handleSubmit = function(event){
     openModal();
-    // event.preventDefault();
   }
 
   function openModal() {

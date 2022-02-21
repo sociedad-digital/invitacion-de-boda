@@ -36,14 +36,14 @@ function ReservationModal(props) {
       >
         <form>
           <label>
-            R.S.V.P. 
+            R.S.V.P.
             <input
               defaultValue="1"
               type="text"
               min={1}
               max={4}
               step={1}
-              defaultValue={props.guest}
+              defaultValue={props.guest || "Nombre Completo"}
               onChange={e => setGuest(e.target.value)}
             />
           </label>
