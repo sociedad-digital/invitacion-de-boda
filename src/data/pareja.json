@@ -1,0 +1,38 @@
+{
+  "novia": {
+    "nombre": "Novia",
+    "nombre_completo": "Novia Soltera"
+  },
+  "novio": {
+    "nombre": "Novio",
+    "nombre_completo": "Novio Soltero"
+  },
+  "fecha": "4-20-22",
+  "nupcias":{
+    "lugar":"Catedral local",
+    "hora":"12:00 Hrs"
+  },
+  "recepcion":{
+    "codigo":"MX",
+    "id":"42022",
+    "nombre": "Salón de fiestas",
+    "calle":"Primer calle",
+    "colonia": "",
+    "referencia":"Dónde el viento sopla al sur del ombligo de la luna",
+    "localidad": "Ayacapizatlán, Tenochtitlán",
+    "hora":"3:00 PM",
+    "liga_mapa":"https://www.google.com/maps/"
+  },
+  "mesa_de_regalos":[
+    {
+      "proveedor": "Almacén local",
+      "nombre": "Evento",
+      "liga": "#"
+    },
+    {
+      "proveedor": "Teidna departamental",
+      "nombre": "Mesa",
+      "liga": "#"
+    }
+  ]
+}
