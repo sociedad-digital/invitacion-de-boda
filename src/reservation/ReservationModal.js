@@ -30,7 +30,7 @@ function ReservationModal(props) {
        body: `${guest}\t${growupMeals}\t${kidMeals}`
    };
 
-   fetch('http://bodalauypepe.tk/cgi-bin/rsvp.sh', requestOptions)
+   fetch(serviceUrl, requestOptions)
         .then(response => {
           if(response.status !== 204){
             alert('No se ha podido comunicar con el proveedor de servicio.\nNotifique con los novios para que le guarden su platillo');
