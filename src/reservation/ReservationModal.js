@@ -54,7 +54,7 @@ function ReservationModal(props) {
               defaultValue="1"
               type="number"
               min={1}
-              max={4}
+              max={2}
               step={1}
               value={growupMeals}
               onChange={e => setGrowupMeals(e.target.value)}
