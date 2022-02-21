@@ -37,7 +37,7 @@ const WeddingPresentation = React.forwardRef((props, ref) => {
       </code>
 
       <p>
-        Huateque subsecuente
+        Recepción subsecuente
       </p>
       <div className="pseudofancy">
         {guest}
@@ -45,7 +45,7 @@ const WeddingPresentation = React.forwardRef((props, ref) => {
         <button
           className="rsvp-button"
         onClick={handleSubmit}>
-          Reservad Si Vos Place
+            Favor de confirmar asistencia
         </button>
         <ReservationModal guest={guest} modalIsOpen={modalIsOpen} setIsOpen={setIsOpen}/>
     </div>
