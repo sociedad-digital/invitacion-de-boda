@@ -18,7 +18,6 @@
 
   border-left: 1em;
   box-shadow: rgba(0, 0, 0, 0.35) 0.35em 0.25em 0.35em;
-
 }
 
 .back-logo{
@@ -41,11 +40,27 @@
   font-size: 1.25em;
 }
 
-.back-logo > p,h1,h2,h3,h4,h5,h6  {
+/* .back-logo > p,h1,h2,h3,h4,h5,h6  {
   margin: 0;
   line-height: 1em;
-}
+} */
 
 .back-logo > h1  {
   font-size: 2em;
+}
+
+.wedding-passport-back a:hover{
+  color:gold;
+}
+.wedding-passport-back a{
+    /* font-size: 0.7em; */
+    display:inline-block;
+    width:50%;
+    max-width: 50%;
+    color:white;
+}
+.wedding-passport-back h6{
+  font-size: 0.50em;
+  margin: 0.8em;
+  line-height: 1.5em;
 }

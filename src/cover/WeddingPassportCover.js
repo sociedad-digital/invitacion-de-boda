@@ -6,7 +6,7 @@ import React from 'react';
 const WeddingPassportCover = React.forwardRef((props, ref) => {
 
   return (
-    <div className="WeddingPassport-cover" ref={ref} >
+    <div className={props.className} ref={ref} >
       <div className="centered-container" >
         <h1 className="passport">PASAP♥RTE</h1>
         <WeddingEventLogo />

@@ -26,15 +26,16 @@
   transform: translate(-50%, -50%);
 }
 
-.WeddingPassport-cover > p,h1,h2,h3,h4,h5,h6  {
-  margin: 0;
+.WeddingPassport-cover  p,h1,h2,h3,h4,h5,h6  {
+  display:block;
+  margin: 0.2em;
+  line-height: 1em;
 }
-.WeddingPassport-cover > h1.passport  {
-  letter-spacing: 0.1em;
+.WeddingPassport-cover  h1.passport  {
+  letter-spacing: 0.15em;
 }
 
 .WeddingPassport-cover .couple {
   font-family: 'ChopinScript';
-  line-height: 1.8em;
-  font-size: 2em;
+  font-size: 1.8em;
 }

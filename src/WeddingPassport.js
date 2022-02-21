@@ -20,7 +20,7 @@ function WeddingPassport(this: any) {
       mobileScrollSupport={true}
       className="WeddingPassport"
     >
-      <WeddingPassportCover />
+      <WeddingPassportCover className="WeddingPassport-cover"/>
       <WeddingPresentation className="inside-left-page page"/>
       <WeddingReception className="inside-right-page page"/>
       <WeddingPassportBack className="wedding-passport-back"/>

@@ -22,9 +22,9 @@ const WeddingPresentation = React.forwardRef((props, ref) => {
     <div  ref={ref} className={props.className}>
       <h5 className="invite">Acompáñanos a celebrar el enlace matrimonial de</h5>
       <img className="fingerprint-heart" src={heart}/>
-      <h1 className="fancy-font ocre">{boda.novio.nombre_completo}</h1>
-      <h1 className="fancy-font ocre">&</h1>
-      <h1 className="fancy-font ocre">{boda.novia.nombre_completo}</h1>
+      <h1 className="fancy-font ocre">{boda.novio.nombre_completo}
+      <br/>&<br/>
+      {boda.novia.nombre_completo}</h1>
 
       <h3 className="attribute banner ocre">{boda.fecha}</h3>
 
