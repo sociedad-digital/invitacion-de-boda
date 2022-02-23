@@ -20,6 +20,8 @@ function ReservationModal(props) {
   const [guest, setGuest] = React.useState(props.guest || "Nombre Completo");
   const [growupMeals, setGrowupMeals] = React.useState(1);
 
+  const serviceUrl = 'dominio.mx';
+
   function closeModal() {
     props.setIsOpen(false);
   }
