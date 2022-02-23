@@ -1,11 +1,19 @@
 {
   "novia": {
     "nombre": "Novia",
-    "nombre_completo": "Novia Soltera"
+    "nombre_completo": "Novia Soltera",
+    "linaje": {
+      "matrilineal":"Matriarca",
+      "patrilineal":"Patriarca"
+    }
   },
   "novio": {
     "nombre": "Novio",
-    "nombre_completo": "Novio Soltero"
+    "nombre_completo": "Novio Soltero",
+    "linaje": {
+      "matrilineal":"Matriarca",
+      "patrilineal":"Patriarca"
+    }
   },
   "fecha": "4-20-22",
   "nupcias":{
