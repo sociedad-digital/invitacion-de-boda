@@ -22,7 +22,7 @@ const WeddingPassportBack = React.forwardRef((props, ref) => {
         }
       </div>
 
-      <div className="credits"><a href="mailto:emir.herrera@gmail.com">Servicios dígitales por Emir Herrera González</a></div>
+      <div className="credits"><a href="mailto:emir.herrera@gmail.com">Servicios digitales por Emir Herrera González</a></div>
     </div>
   );
 });
