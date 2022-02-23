@@ -12,15 +12,40 @@
 
 .inside-left-page img{
   width:4rem;
+  margin:0;
 }
 
 .invite{
   margin:2em 0em 1em 1em;
 }
 
-.fingerprint-heart{
-  margin:0.5em;
+.lineage{
+  width:100%;
+  display: inline-block;
+  vertical-align: top;
 }
+.matrilineus{
+  width:45%;
+  display:inline-block;
+  vertical-align: top;
+
+}
+.patrilineus{
+  vertical-align: top;
+  width:45%;
+  display:inline-block;
+}
+
+.nupcial-data{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 0.63em;
+  margin:auto;
+}
+
+
+/* .fingerprint-heart{
+  margin:0.5em;
+} */
 
 /* .banner{
   margin:2rem;
@@ -42,17 +67,35 @@
   color: #B89000;
 }
 
+h1.couple-name{
+  font-size: 1.6em;
+  margin-top: 0;
+  margin-bottom: 0.7em;
+  line-height: 1em;
+}
+
+.nupcial-data .lineage{
+  margin-bottom: 1em;
+}
+.nupcial-data h3{
+  margin-top: 1em;
+}
+
 .rsvp-button{
+  position:absolute;
+  bottom:5%;
+  left:50%;
+  transform: translate(-50%);
   box-shadow: 1em 0.5em 0.5em gray;
   background-color: transparent; /* Green */
-  border: line;
+  border: none;
   color: white;
   padding: 0.35em 0.35em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   border-radius: 10%;
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: 900;
   background-image: linear-gradient(144deg,#C1AD65 100%, #FFFFFF);
 

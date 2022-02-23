@@ -19,32 +19,45 @@ const WeddingPresentation = React.forwardRef((props, ref) => {
   }
   return (
     <div  ref={ref} className={props.className}>
-      <h5 className="invite">Acompáñanos a celebrar el enlace matrimonial de</h5>
+      <code>
+        <h5 className="invite">Acompáñanos a celebrar nuestro enlace matrimonial</h5>
+      </code>
       <img className="fingerprint-heart" src={heart}/>
-      <h1 className="fancy-font ocre">{boda.novio.nombre_completo}
+      <h1 className="fancy-font ocre couple-name">{boda.novio.nombre_completo}
       <br/>&<br/>
       {boda.novia.nombre_completo}</h1>
 
-      <h3 className="attribute banner ocre">{boda.fecha}</h3>
 
-      <code>
-        <p>
-          {boda.nupcias.lugar}
-        </p>
-        <p>
-          {boda.nupcias.hora}
-        </p>
-      </code>
 
-      <p>
-        Recepción subsecuente
-      </p>
+      <div className="nupcial-data">
+        <p>
+        <strong>
+        Con la bendición de Dios y nuestros padres:</strong>
+        </p>
+        <div className="lineage">
+          <div className="patrilineus">
+            {boda.novia.linaje.matrilineal}<br/>
+            {boda.novia.linaje.patrilineal}
+        </div>
+        <div className="matrilineus">
+            {boda.novio.linaje.matrilineal}<br/>
+            {boda.novio.linaje.patrilineal}
+          </div>
+        </div>
+
+          <h3>
+            {boda.nupcias.lugar}
+          </h3>
+        <h3 className="attribute banner ocre">{boda.fecha} &nbsp;    {boda.nupcias.hora}</h3>
+      </div>
+
       <div className="pseudofancy">
         {guest}
       </div>
         <button
           className="rsvp-button"
         onClick={handleSubmit}>
+            Recepción subsecuente <br/>
             Favor de confirmar asistencia
         </button>
         <ReservationModal guest={guest} modalIsOpen={modalIsOpen} setIsOpen={setIsOpen}/>
