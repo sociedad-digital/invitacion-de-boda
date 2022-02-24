@@ -32,6 +32,16 @@ function ReservationModal(props) {
        body: `${guest}\t${growupMeals}\t${kidMeals}`
    };
 
+   if (growupMeals > 3 || growupMeals < 1){
+     alert(`"${growupMeals}" está fuera del rango [1,3]`);
+     return 0;
+   }
+
+   if (kidMeals > 2 || kidMeals < 0){
+     alert(`"${growupMeals}" está fuera del rango [0,2]`);
+     return 0;
+   }
+
    fetch(serviceUrl, requestOptions)
         .then(response => {
           if(response.status !== 204){
@@ -60,11 +70,7 @@ function ReservationModal(props) {
           <label>
             R.S.V.P.
             <input
-              defaultValue="1"
               type="text"
-              min={1}
-              max={4}
-              step={1}
               defaultValue={guest}
               onChange={e => setGuest(e.target.value)}
             />
@@ -76,7 +82,7 @@ function ReservationModal(props) {
               defaultValue="1"
               type="number"
               min={1}
-              max={2}
+              max={3}
               step={1}
               value={growupMeals}
               onChange={e => setGrowupMeals(e.target.value)}
